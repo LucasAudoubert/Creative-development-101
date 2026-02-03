@@ -1,0 +1,60 @@
+@import './variables';
+
+#joy-section {
+  background: linear-gradient(45deg, #FFD700 0%, #FFA500 25%, #FF69B4 50%, #9370DB 75%, #00CED1 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: 
+      radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 30%),
+      radial-gradient(circle at 90% 80%, rgba(255, 255, 255, 0.2) 0%, transparent 25%),
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.15) 0%, transparent 40%);
+    animation: sparkle 3s ease-in-out infinite;
+  }
+
+  .emotion-content {
+    animation: bounce 1s ease-in-out infinite;
+    
+    h1 {
+      color: #FFFFFF;
+      text-shadow: 
+        0 0 10px rgba(255, 215, 0, 0.8),
+        0 0 20px rgba(255, 105, 180, 0.6),
+        0 0 30px rgba(147, 112, 219, 0.4),
+        3px 3px 0 rgba(0, 0, 0, 0.2);
+      animation: rainbow 2s linear infinite;
+    }
+    
+    p {
+      color: #FFF;
+      text-shadow: 
+        0 0 10px rgba(255, 215, 0, 0.6),
+        2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-15px) scale(1.05); }
+}
+
+@keyframes rainbow {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
