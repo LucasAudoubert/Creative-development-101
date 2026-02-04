@@ -6,10 +6,6 @@ import './style/joy.scss';
 
 console.log('Creative Development Initialized');
 
-while (document.readyState !== 'complete') {
-}
-
-
 // FRUSTRATION SECTION 
 
 const frustrationBtn = document.getElementById('frustration-btn');

@@ -1,14 +1,14 @@
-@import './variables';
+@use "./variables.scss" as *;
 
 #calm-section {
   background: linear-gradient(180deg, #1e3a5f 0%, #2a5f7f 50%, #4a90b8 100%);
   position: relative;
-  
+
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
-    background: 
+    background:
       radial-gradient(
         circle at 20% 50%,
         rgba(255, 255, 255, 0.1) 0%,
@@ -24,18 +24,18 @@
 
   .emotion-content {
     animation: float 3s ease-in-out infinite;
-    
+
     h1 {
-      color: #E0F7FA;
-      text-shadow: 
+      color: #e0f7fa;
+      text-shadow:
         0 0 20px rgba(224, 247, 250, 0.5),
         0 0 40px rgba(224, 247, 250, 0.3);
       font-weight: 300;
       letter-spacing: 0.2em;
     }
-    
+
     p {
-      color: #B3E5FC;
+      color: #b3e5fc;
       text-shadow: 0 0 10px rgba(179, 229, 252, 0.3);
       font-weight: 300;
     }
@@ -43,11 +43,21 @@
 }
 
 @keyframes breathe {
-  0%, 100% { opacity: 0.6; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }

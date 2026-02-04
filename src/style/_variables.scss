@@ -2,8 +2,10 @@ $primary: #fcfcfc;
 $secondary: #1d1d1d;
 $accent-frustration: #ff3535;
 
-// Mixins (fonctions réutilisables)
+// Mixins
 @mixin neon-glow($color) {
-  box-shadow: 0 0 10px $color, 0 0 20px rgba($color, 0.5);
+  box-shadow:
+    0 0 10px $color,
+    0 0 20px rgba($color, 0.5);
   border: 1px solid $color;
 }
