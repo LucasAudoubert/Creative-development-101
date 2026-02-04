@@ -9,6 +9,9 @@ $calm-sky-blue: #59A2E1;
 $calm-blue: #4C79B0;
 $calm-dark-blue: #002E69;
 
+  $color1: 18, 113, 255;
+  $color2: 221, 74, 255;
+
 // Mixins (fonctions réutilisables)
 @mixin neon-glow($color) {
   box-shadow:
