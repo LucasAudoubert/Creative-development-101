@@ -5,3 +5,16 @@ import './style/joy.scss';
 
 
 console.log('Creative Development Initialized');
+
+while (document.readyState !== 'complete') {
+}
+
+
+// FRUSTRATION SECTION 
+
+const frustrationBtn = document.getElementById('frustration-btn');
+const frustrationSection = document.getElementById('frustration-section');
+
+frustrationBtn.addEventListener('click', () => {
+    frustrationSection.scrollIntoView({ behavior: 'smooth' });
+});
