@@ -13,6 +13,7 @@ $calm-dark-blue: #002E69;
   $color2: 221, 74, 255;
 
 // Mixins (fonctions réutilisables)
+// Mixins
 @mixin neon-glow($color) {
   box-shadow:
     0 0 10px $color,

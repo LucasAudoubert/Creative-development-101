@@ -1,4 +1,4 @@
-@import './variables';
+@use "./variables.scss" as *;
 
 #calm-section {
   // background: linear-gradient(180deg, #1e3a5f 0%, #2a5f7f 50%, #4a90b8 100%);
