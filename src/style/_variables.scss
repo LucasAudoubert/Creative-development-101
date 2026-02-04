@@ -2,10 +2,32 @@ $primary: #fcfcfc;
 $secondary: #1d1d1d;
 $accent-frustration: #ff3535;
 
+// calm colours
+$calm-blue-light1: #cbe2ea;
+$calm-blue-light2: #9BC5EB;
+$calm-sky-blue: #59A2E1;
+$calm-blue: #4C79B0;
+$calm-dark-blue: #002E69;
+
+  $color1: 18, 113, 255;
+  $color2: 221, 74, 255;
+
+// Mixins (fonctions réutilisables)
 // Mixins
 @mixin neon-glow($color) {
   box-shadow:
     0 0 10px $color,
     0 0 20px rgba($color, 0.5);
   border: 1px solid $color;
+}
+
+
+//calm mixin
+@mixin calm-gradient-bg {
+  background: #4c79b0;
+  background: radial-gradient(
+    circle,
+    rgba(76, 121, 176, 1) 69%,
+    rgba(0, 46, 105, 1) 100%
+  );
 }
