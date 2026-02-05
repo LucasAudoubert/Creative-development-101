@@ -1,31 +1,7 @@
 @use "./_variables" as *;
 
 #frustration-section {
-  background: linear-gradient(135deg, #8b0000 0%, #dc143c 50%, #ff4500 100%);
-  position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-      repeating-linear-gradient(
-        90deg,
-        transparent,
-        transparent 10px,
-        rgba(0, 0, 0, 0.1) 10px,
-        rgba(0, 0, 0, 0.1) 20px
-      ),
-      repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 10px,
-        rgba(0, 0, 0, 0.1) 10px,
-        rgba(0, 0, 0, 0.1) 20px
-      );
-    animation: glitch 0.3s infinite;
-    opacity: 0.3;
-  }
+  
 
   .emotion-content {
     animation: shake 0.5s infinite;
@@ -37,9 +13,45 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      font-weight: bold;
+      font-weight: 800;
       text-transform: uppercase;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      font-family: "Eagle Lake", serif;
+      font-size: large;
+      letter-spacing: 1px;
+      animation: glowPulse 2s ease-in-out infinite;
     }
+  }
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow:
+      0 0 20px #ff0000,
+      0 0 40px #ff0000c4,
+      0 0 60px #ff00008e;
+  }
+  50% {
+    box-shadow:
+      0 0 30px #ff4500,
+      0 0 60px #ff4500c4,
+      0 0 90px #ff45008e;
+  }
+  100% {
+    box-shadow:
+      0 0 20px #ff0000,
+      0 0 40px #ff0000c4,
+      0 0 60px #ff00008e;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
   }
 }

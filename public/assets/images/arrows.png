@@ -1,0 +1,88 @@
+<?xml version="1.0"?><svg width="650" height="500" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <title>Embedded Blue Arrow Point Down Right</title>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(24.3255, 232.779, 156.549)" id="svg_3">
+   <path transform="rotate(0.191208, 218.557, 154.742)" d="m255.494629,155.88121c0.427887,4.443237 -10.788177,0.219879 -17.795441,-0.584778c-7.007263,-0.804657 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288788 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162323 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193085 39.687256,-0.193085c0,0 24.686646,-0.37149 25.11438,4.071747z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff" id="svg_2"/>
+   <g transform="rotate(0.191208, 264.791, 159.939) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)" id="svg_6">
+    <path d="m661.498169,-0.137421c-8,14 -31.999939,62 -38.999939,74c-7,12 -10,4 5,-29c14.999939,-33 41.999939,-59 33.999939,-45z" transform="rotate(-10.7572, 639.828, 37.5601)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff" id="svg_7"/>
+    <path d="m630.49823,-35.137421c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, 608.841, 2.56015)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff" id="svg_8"/>
+    <path d="m616.49823,7.862579c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 42,-59 34,-45z" transform="rotate(110.724, 594.841, 45.5611)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff" id="svg_9"/>
+   </g>
+  </g>
+  <g id="svg_4" transform="rotate(97.1419, 337.848, 122.979)">
+   <path id="svg_5" transform="rotate(0.191208, 323.625, 121.17)" d="m360.562988,122.308945c0.427887,4.443237 -10.788177,0.219879 -17.795441,-0.584778c-7.007263,-0.804657 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288788 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162323 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193085 39.687256,-0.193085c0,0 24.686646,-0.37149 25.11438,4.071747z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_10" transform="rotate(0.191208, 369.859, 126.367) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_11" d="m419.63205,-198.590668c-8,14 -31.999939,62 -38.999939,73.999992c-7,12 -10,4 5,-28.999992c14.999939,-33 41.999939,-59 33.999939,-45z" transform="rotate(-10.7572, 397.962, -160.893)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_12" d="m388.632111,-233.590668c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, 366.975, -195.893)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_13" d="m374.632111,-190.590668c-8,14 -32,62 -39,73.999992c-7,12 -10,4 5,-28.999992c15,-33 42,-59 34,-45z" transform="rotate(110.724, 352.975, -152.892)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_14" transform="rotate(-27.954, 211.848, 318.979)">
+   <path id="svg_15" transform="rotate(0.191208, 197.625, 317.17)" d="m234.562988,318.30896c0.427887,4.443237 -10.788177,0.219849 -17.795441,-0.584778c-7.007263,-0.804688 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288757 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162354 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193115 39.687256,-0.193115c0,0 24.686646,-0.37146 25.11438,4.071777z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_16" transform="rotate(0.191208, 243.859, 322.367) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_17" d="m560.501648,506.765228c-8,13.999969 -31.999939,61.999969 -38.999939,73.999969c-7,12 -9.999969,4 5,-29c14.999939,-33 41.999939,-58.999939 33.999939,-44.999969z" transform="rotate(-10.7572, 538.831, 544.463)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_18" d="m529.501709,471.765259c-8,14 -31.999969,61.999939 -39,73.999939c-7,12 -10,4 5.000031,-29c15,-32.999939 41.999908,-58.999939 33.999969,-44.999939z" transform="rotate(-127.536, 507.844, 509.463)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_19" d="m515.501709,514.765198c-7.999969,14 -32,62 -39,74c-7,12 -10,4 5,-29c15.000031,-33 42,-58.999939 34,-45z" transform="rotate(110.724, 493.844, 552.464)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g transform="rotate(-116.851, 327.498, 356.498)" id="svg_26">
+   <path id="svg_21" transform="rotate(24.5167, 314.629, 348.473)" d="m351.569275,349.609894c0.427887,4.443237 -10.788177,0.219849 -17.795441,-0.584778c-7.007263,-0.804688 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288757 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162354 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193115 39.687256,-0.193115c0,0 24.686646,-0.37146 25.11438,4.071777z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_22" transform="rotate(24.5167, 355.621, 373.252) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_23" d="m220.278046,555.541016c-8.000031,14 -32,61.999939 -39,73.999939c-7,12 -10,4 5,-28.999939c14.999939,-33 42,-59 34,-45z" transform="rotate(-10.7572, 198.608, 593.239)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_24" d="m189.278046,520.541016c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 41.999939,-58.999969 34,-45z" transform="rotate(-127.536, 167.621, 558.239)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_25" d="m175.278046,563.541016c-8,14 -32,61.999939 -39,73.999939c-7,12 -10,4 5,-29c15,-32.999939 42,-58.999939 34,-44.999939z" transform="rotate(110.724, 153.621, 601.24)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_40" transform="rotate(161.523, 487.635, 206.951)">
+   <path id="svg_41" transform="rotate(0.191208, 473.412, 205.143)" d="m510.350098,206.281601c0.427856,4.443237 -10.788177,0.219879 -17.795441,-0.584778c-7.007263,-0.804657 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288788 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162323 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193085 39.687256,-0.193085c0,0 24.686646,-0.37149 25.11438,4.071747z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_42" transform="rotate(0.191208, 519.646, 210.34) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_43" d="m-51.458008,-85.881638c-8,14 -31.999939,62.000008 -38.999939,74.000008c-7,12 -10,4 5,-29c14.999939,-33.000008 41.999939,-59.000008 33.999939,-45.000008z" transform="rotate(-10.7572, -73.1278, -48.1839)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_44" d="m-82.457947,-120.881638c-8,14 -32,62 -39,74.000008c-7,12 -10,4 5,-29.000008c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, -104.115, -83.1839)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_45" d="m-96.457947,-77.881638c-8,14 -32,62.000008 -39,74.000008c-7,12 -10,4 5,-29c15,-33.000008 42,-59.000008 34,-45.000008z" transform="rotate(110.724, -118.115, -40.1829)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_46" transform="rotate(-171.584, 467.635, 259.951)">
+   <path id="svg_47" transform="rotate(0.191208, 453.412, 258.143)" d="m490.350098,259.281616c0.427856,4.443237 -10.788177,0.219849 -17.795441,-0.584778c-7.007263,-0.804688 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288757 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162354 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193115 39.687256,-0.193115c0,0 24.686646,-0.37146 25.11438,4.071777z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_48" transform="rotate(0.191208, 499.646, 263.34) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_49" d="m-50.064819,91.767166c-8,14 -31.999939,62 -38.999939,74c-7,12 -10,4 5,-29c14.999939,-33 41.999939,-59 33.999939,-45z" transform="rotate(-10.7572, -71.7346, 129.465)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_50" d="m-81.064758,56.767166c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, -102.722, 94.4649)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_51" d="m-95.064758,99.767166c-8,14 -32,62 -39,74c-7,12.000015 -10,4 5,-29c15,-33 42,-59 34,-45z" transform="rotate(110.724, -116.722, 137.466)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_52" transform="rotate(-141.346, 424.635, 327.951)">
+   <path id="svg_53" transform="rotate(0.191208, 410.412, 326.143)" d="m447.350098,327.281616c0.427856,4.443237 -10.788177,0.219849 -17.795441,-0.584778c-7.007263,-0.804688 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288757 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162354 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193115 39.687256,-0.193115c0,0 24.686646,-0.37146 25.11438,4.071777z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_54" transform="rotate(0.191208, 456.646, 331.34) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_55" d="m-3.054581,335.818268c-8,14 -31.999939,61.999969 -38.999939,73.999969c-7,12 -10,4 5,-28.999969c14.999939,-33 41.999939,-59 33.999939,-45z" transform="rotate(-10.7572, -24.7244, 373.516)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_56" d="m-34.05452,300.818268c-8,14 -32,62 -39,74c-7,11.999969 -10,4 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, -55.7114, 338.516)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_57" d="m-48.05452,343.818268c-8,14 -32,61.999969 -39,73.999969c-7,12 -10,4 5,-29c15,-32.999969 42,-58.999969 34,-44.999969z" transform="rotate(110.724, -69.7114, 381.517)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_58" transform="rotate(119.182, 422.635, 128.951)">
+   <path id="svg_59" transform="rotate(0.191208, 408.412, 127.143)" d="m445.350098,128.281616c0.427856,4.443237 -10.788177,0.219849 -17.795441,-0.584778c-7.007263,-0.804688 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288757 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162354 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193115 39.687256,-0.193115c0,0 24.686646,-0.37146 25.11438,4.071777z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_60" transform="rotate(0.191208, 454.646, 132.34) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_61" d="m192.781097,-259.511658c-8,14 -31.999939,61.999985 -38.999939,73.999985c-7,12 -10,4 5,-29c14.999939,-32.999985 41.999939,-58.999985 33.999939,-44.999985z" transform="rotate(-10.7572, 171.111, -221.814)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_62" d="m161.781158,-294.511658c-8,14 -32,62 -39,74c-7,11.999985 -10,3.999985 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, 140.124, -256.814)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_63" d="m147.781158,-251.511658c-8,14 -32,61.999985 -39,73.999985c-7,12 -10,4 5,-29c15,-32.999985 42,-58.999985 34,-44.999985z" transform="rotate(110.724, 126.124, -213.813)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_64" transform="rotate(9.44826, 186.99, 186.113)">
+   <path id="svg_65" d="m209.701569,186.688766c0.413025,-4.696167 -10.788879,-0.194275 -17.793396,0.680618c-7.004532,0.874893 -26.339127,0.223145 -34.017883,-0.054886c-7.678772,-0.278061 -19.183212,-2.069351 -21.619019,-0.832687c-2.435837,1.236694 5.449402,3.731171 8.641968,4.533585c3.19249,0.803116 39.687668,0.064072 39.687668,0.064072c0,0 24.687759,0.305466 25.100662,-4.390701z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_66" transform="matrix(-0.34389, 0.113923, -0.11088, -0.315719, 478.357, 182.552)">
+    <path id="svg_67" d="m728.385986,206.195786c-8,14 -31.999939,62.000015 -38.999939,74.000015c-7,12 -10,4 5,-29.000015c14.999939,-33 41.999939,-59 33.999939,-45z" transform="rotate(-10.7572, 706.716, 243.893)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_68" d="m697.386047,171.195786c-8,14 -32,62 -39,74c-7,12.000015 -10,4 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, 675.729, 208.893)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_69" d="m683.386047,214.195786c-8,14 -32,62.000015 -39,74.000015c-7,12 -10,4 5,-29c15,-33.000015 42,-59.000015 34,-45.000015z" transform="rotate(110.724, 661.729, 251.895)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+  <g id="svg_70" transform="rotate(-14.8909, 143.635, 261.951)">
+   <path id="svg_71" transform="rotate(0.191208, 129.412, 260.143)" d="m166.350098,261.281616c0.427887,4.443237 -10.788177,0.219849 -17.795441,-0.584778c-7.007263,-0.804688 -26.339691,-0.123291 -34.017517,0.165466c-7.677856,0.288757 -19.176575,2.022522 -21.616272,0.860229c-2.439728,-1.162354 5.437592,-3.5495 8.627594,-4.31958c3.189941,-0.770752 39.687256,-0.193115 39.687256,-0.193115c0,0 24.686646,-0.37146 25.11438,4.071777z" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   <g id="svg_72" transform="rotate(0.191208, 175.646, 265.34) matrix(-0.344248, -0.106673, -0.109882, 0.299178, 478.446, 213.649)">
+    <path id="svg_73" d="m793.030701,399.060913c-8,14 -31.999939,62 -38.999939,74c-7,12 -10,4 5,-29c14.999939,-33 41.999939,-59 33.999939,-45z" transform="rotate(-10.7572, 771.361, 436.759)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_74" d="m762.030762,364.060913c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 41.999939,-59 34,-45z" transform="rotate(-127.536, 740.374, 401.759)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+    <path id="svg_75" d="m748.030762,407.060913c-8,14 -32,62 -39,74c-7,12 -10,4 5,-29c15,-33 42,-59 34,-45z" transform="rotate(110.724, 726.374, 444.76)" stroke-width="null" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" fill="#007fff"/>
+   </g>
+  </g>
+ </g>
+</svg>
