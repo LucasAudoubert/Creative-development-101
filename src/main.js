@@ -9,8 +9,6 @@ import './style/calm.scss';
 console.log('Creative Development Initialized');
 
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const interBubble = document.querySelector('.interactive');
     let curX = 0;
