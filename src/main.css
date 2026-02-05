@@ -1,8 +1,20 @@
-@import './style/frustration.scss';
-@import './style/calm.scss';
-@import './style/joy.scss';
+@import "./style/frustration.scss";
+@import "./style/calm.scss";
+@import "./style/joy.scss";
 
-*, *::before, *::after {
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap"); /* Pour Frustration */
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,7 +22,7 @@
 
 html {
   -webkit-text-size-adjust: none; /* Empêche zoom auto du texte sur téléphone */
-  scroll-behavior: smooth;       /* Scroll fluide ancrage */
+  scroll-behavior: smooth; /* Scroll fluide ancrage */
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
@@ -59,16 +71,24 @@ body {
   opacity: 0.9;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
