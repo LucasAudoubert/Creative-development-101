@@ -12,10 +12,6 @@
 <body>
   <main id="scroll-container">
 
-    <div class="scrollBtn">
-      <a href="">Click here</a>
-    </div>
-
     <section id="frustration-section" class="emotion-section">
       <div class="emotion-content">
         <button class="frustration-btn">Clique ici pour commencer!</button>
@@ -60,6 +56,20 @@
         <p>texte ici</p>
       </div>
     </section>
+
+    <div class="tab-container">
+      <input class="tab tab--1" id="tab1" name="tab" type="radio" />
+      <label for="tab1" class="tab_label">Frustration</label>
+    
+      <input class="tab tab--2" id="tab2" name="tab" type="radio" />
+      <label for="tab2" class="tab_label">Calme</label>
+    
+      <input class="tab tab--3" id="tab3" name="tab" type="radio" />
+      <label for="tab3" class="tab_label">Joie</label>
+    
+      <div class="indicator"></div>
+      <div class="scroller"></div>
+    </div>
   </main>
 
   <script type="module" src="/src/main.js" defer></script>

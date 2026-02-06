@@ -1,8 +1,10 @@
 // import * as THREE from "three";
+
 import "../src/main.css";
 import "./style/frustration.scss";
 import "./style/calm.scss";
 import "./style/joy.scss";
+import "./scrollContainer.js";
 
 console.log("Creative Development Initialized");
 
@@ -29,51 +31,51 @@ document.addEventListener("DOMContentLoaded", () => {
 
   move();
 
-//   const banner = document.createElement("div");
-//   banner.style.position = "fixed";
-//   banner.style.top = "10px";
-//   banner.style.left = "0";
-//   banner.style.width = "100%";
-//   banner.style.whiteSpace = "wrapping";
-//   banner.style.overflow = "hidden";
-//   banner.style.fontSize = "20px";
-//   banner.style.fontWeight = "bold";
-//   banner.style.color = "white";
-//   banner.style.backgroundColor = "transparent";
-//   banner.style.padding = "10px";
-//   banner.style.zIndex = "0";
-//   document.body.appendChild(banner);
+  //   const banner = document.createElement("div");
+  //   banner.style.position = "fixed";
+  //   banner.style.top = "10px";
+  //   banner.style.left = "0";
+  //   banner.style.width = "100%";
+  //   banner.style.whiteSpace = "wrapping";
+  //   banner.style.overflow = "hidden";
+  //   banner.style.fontSize = "20px";
+  //   banner.style.fontWeight = "bold";
+  //   banner.style.color = "white";
+  //   banner.style.backgroundColor = "transparent";
+  //   banner.style.padding = "10px";
+  //   banner.style.zIndex = "0";
+  //   document.body.appendChild(banner);
 
-//   const words = [
-//     "Trop lent !",
-//     "Tu ne m'auras pas !",
-//     "Essaie encore !",
-//     "Tu peux faire mieux !",
-//     "Pas si vite !",
-//     "Attrape-moi si tu peux !",
-//   ];
-//   let wordIndex = 0;
-//   let bannerText = "";
+  //   const words = [
+  //     "Trop lent !",
+  //     "Tu ne m'auras pas !",
+  //     "Essaie encore !",
+  //     "Tu peux faire mieux !",
+  //     "Pas si vite !",
+  //     "Attrape-moi si tu peux !",
+  //   ];
+  //   let wordIndex = 0;
+  //   let bannerText = "";
 
-//   const updateBanner = () => {
-//     const section = document.querySelector("#frustration-section");
-//     const sectionRect = section.getBoundingClientRect();
+  //   const updateBanner = () => {
+  //     const section = document.querySelector("#frustration-section");
+  //     const sectionRect = section.getBoundingClientRect();
 
-//     if (sectionRect.bottom > 0) {
-//       bannerText += ` ${words[wordIndex]}`;
-//       wordIndex = (wordIndex + 1) % words.length;
-//       banner.textContent = bannerText;
-//     }
-//   };
+  //     if (sectionRect.bottom > 0) {
+  //       bannerText += ` ${words[wordIndex]}`;
+  //       wordIndex = (wordIndex + 1) % words.length;
+  //       banner.textContent = bannerText;
+  //     }
+  //   };
 
-//   let lastMouseX = 0;
-//   window.addEventListener("mousemove", (event) => {
-//     if (Math.abs(event.clientX - lastMouseX) > 50) {
-//       updateBanner();
-//       lastMouseX = event.clientX;
-//     }
-//   });
-// });
+  //   let lastMouseX = 0;
+  //   window.addEventListener("mousemove", (event) => {
+  //     if (Math.abs(event.clientX - lastMouseX) > 50) {
+  //       updateBanner();
+  //       lastMouseX = event.clientX;
+  //     }
+  //   });
+  // });
 
   // FRUSTRATION SECTION
 
@@ -150,6 +152,45 @@ document.addEventListener("DOMContentLoaded", () => {
   frustrationBtn.addEventListener("click", moveButton);
   frustrationBtn.addEventListener("mouseenter", moveButton);
 
-  if (frustrationBtn.style.transition()) {
+  const fireCount = 10;
+
+  for (let i = 0; i < fireCount; i++) {
+    const fire = document.createElement("div");
+    fire.className = "fire";
+    fire.style.position = "absolute";
+    const useTop = Math.random() > 0.2;
+    const useLeft = Math.random() > 0.2;
+
+    if (useTop) {
+      fire.style.top = `${Math.random() * 60 + 50}%`;
+    } else {
+      fire.style.bottom = `${Math.random() * 60 + 20}%`;
+    }
+
+    if (useLeft) {
+      fire.style.left = `${Math.random() * 60 + 20}%`;
+    } else {
+      fire.style.right = `${Math.random() * 60 + 20}%`;
+    }
+
+    fire.innerHTML = `
+      <div class="fire-left">
+        <div class="main-fire"></div>
+        <div class="particle-fire"></div>
+      </div>
+      <div class="fire-center">
+        <div class="main-fire"></div>
+        <div class="particle-fire"></div>
+      </div>
+      <div class="fire-right">
+        <div class="main-fire"></div>
+        <div class="particle-fire"></div>
+      </div>
+      <div class="fire-bottom">
+        <div class="main-fire"></div>
+      </div>
+    `;
+
+    frustrationSection.appendChild(fire);
   }
 });
