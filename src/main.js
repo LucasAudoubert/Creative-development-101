@@ -1,42 +1,79 @@
-import * as THREE from "three";
+// import * as THREE from "three";
 
 import "../src/main.css";
 import "./style/frustration.scss";
 import "./style/calm.scss";
 import "./style/joy.scss";
 
-console.log('Creative Development Initialized');
+console.log("Creative Development Initialized");
 
+document.addEventListener("DOMContentLoaded", () => {
+  const interBubble = document.querySelector(".interactive");
+  let curX = 0;
+  let curY = 0;
+  let tgX = 0;
+  let tgY = 0;
 
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const interBubble = document.querySelector('.interactive');
-    let curX = 0;
-    let curY = 0;
-    let tgX = 0;
-    let tgY = 0;
-
-    function move() {
-        curX += (tgX - curX) / 5;
-        curY += (tgY - curY) / 5;
-        interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
-        requestAnimationFrame(() => {
-            move();
-        });
-    }
-
-    window.addEventListener('mousemove', (event) => {
-        tgX = event.clientX;
-        tgY = event.clientY;
+  function move() {
+    curX += (tgX - curX) / 5;
+    curY += (tgY - curY) / 5;
+    interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
+    requestAnimationFrame(() => {
+      move();
     });
+  }
 
-    move();
+  window.addEventListener("mousemove", (event) => {
+    tgX = event.clientX;
+    tgY = event.clientY;
+  });
+
+  move();
+
+  const banner = document.createElement("div");
+  banner.style.position = "fixed";
+  banner.style.top = "10px";
+  banner.style.left = "0";
+  banner.style.width = "100%";
+  banner.style.whiteSpace = "wrapping";
+  banner.style.overflow = "hidden";
+  banner.style.fontSize = "20px";
+  banner.style.fontWeight = "bold";
+  banner.style.color = "white";
+  banner.style.backgroundColor = "transparent";
+  banner.style.padding = "10px";
+  banner.style.zIndex = "0";
+  document.body.appendChild(banner);
+
+  const words = [
+    "Trop lent !",
+    "Tu ne m'auras pas !",
+    "Essaie encore !",
+    "Tu peux faire mieux !",
+    "Pas si vite !",
+    "Attrape-moi si tu peux !",
+  ];
+  let wordIndex = 0;
+  let bannerText = "";
+
+  const updateBanner = () => {
+    bannerText += ` ${words[wordIndex]}`;
+    wordIndex = (wordIndex + 1) % words.length;
+    banner.textContent = bannerText;
+  };
+
+  let lastMouseX = 0;
+  window.addEventListener("mousemove", (event) => {
+    if (Math.abs(event.clientX - lastMouseX) > 50) {
+      updateBanner();
+      lastMouseX = event.clientX;
+    }
+  });
 });
 
-while (document.readyState !== 'complete') {
-}
-
+// while (document.readyState !== "complete") {
+//   console.log("Loading complete...");
+// }
 
 // FRUSTRATION SECTION
 
@@ -58,11 +95,11 @@ frustrationSection.appendChild(arrows);
 
 // en bas a gauche mais utiliser autre methode pour le positionner
 const angryGif = document.createElement("img");
-angryGif.src = "/assets/images/angry.gif";
+angryGif.src = "/assets/images/skyrim-skeleton.gif";
 angryGif.style.position = "absolute";
 angryGif.style.bottom = "20px";
 angryGif.style.left = "20px";
-angryGif.style.width = "150px";
+angryGif.style.width = "200px";
 angryGif.style.opacity = "0";
 angryGif.style.transition = "opacity 0.3s ease-in-out";
 angryGif.style.zIndex = "10";
@@ -80,11 +117,15 @@ frustrationSection.addEventListener("mousemove", (e) => {
 });
 
 const moveButton = () => {
-  const maxX = window.innerWidth - frustrationBtn.offsetWidth;
-  const maxY = window.innerHeight - frustrationBtn.offsetHeight;
+  const sectionRect = frustrationSection.getBoundingClientRect();
+  const btnWidth = frustrationBtn.offsetWidth;
+  const btnHeight = frustrationBtn.offsetHeight;
 
-  var x = Math.random() * maxX;
-  var y = Math.random() * maxY;
+  const maxX = sectionRect.width - btnWidth - 40; // 40px de marge
+  const maxY = sectionRect.height - btnHeight - 40; // 40px de marge
+
+  var x = Math.random() * maxX + 20; // +20px de marge minimale
+  var y = Math.random() * maxY + 20; // +20px de marge minimale
 
   frustrationBtn.style.position = "absolute";
   frustrationBtn.style.left = `${x}px`;
