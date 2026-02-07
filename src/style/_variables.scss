@@ -31,3 +31,19 @@ $calm-dark-blue: #002E69;
     rgba(0, 46, 105, 1) 100%
   );
 }
+
+@mixin ring($size, $z) {
+  width: $size;
+  height: $size;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: $z;
+   cursor: pointer;
+
+   &:hover{
+       filter: brightness(1);
+   }
+}

@@ -5,7 +5,10 @@ import './style/frustration.scss';
 import './style/calm.scss';
 import './style/joy.scss';
 
+
 console.log('Creative Development Initialized');
+
+/////////////////////CALM SECTION//////////////////////
 
 document.addEventListener('DOMContentLoaded', () => {
   const interBubble = document.querySelector('.interactive');
@@ -34,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 var rotateDeg = Math.floor(Math.random() * 360);
 
+//animation 1
+
 const g1 = document.querySelector('.g1');
 
 g1.animate(
@@ -48,6 +53,33 @@ g1.animate(
     easing: 'linear',
   },
 );
+
+//animation 2
+
+var posX = Math.floor(Math.random() * 10);
+var posY = Math.floor(Math.random() * 50);
+
+
+const g2 = document.querySelector('.g2');
+
+g2.animate(
+  [
+    { transform: `translate(-${posX}%, -${posY}%)` },
+    { transform: `translate(${posX}%, ${posY}%)` },
+    { transform: `translate(-${posX}%, -${posY}%)` }
+
+  ],
+  {
+    duration: 20000,
+    iterations: Infinity,
+    easing: 'linear',
+  }
+);
+
+
+
+
+////////////////////////////////////////////////////////////////////////
 
 // while (document.readyState !== 'complete') {
 // }
@@ -125,3 +157,13 @@ frustrationBtn.addEventListener('mouseenter', moveButton);
 
 if (frustrationBtn.style.transition()) {
 }
+
+
+////////JOIE SECTION///////////////////
+
+
+
+
+
+
+/////////////////////////////////////
