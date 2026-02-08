@@ -6,7 +6,7 @@ Ce projet est une expérience web interactive conçue pour évoquer et explorer 
 
 - **Frustration** : Représentée par un bouton qui fuis la souris, et une ambiance rouge et jaune (Feu, flammes).
 - **Calme** : Une ambiance posée avec des bulles interactives, et une musique calme.
-- **Joie** : null.
+- **Joie** : Des rayons lumineux.
 
 Chaque section de la page regroupe ces trois émotions.
 
@@ -61,4 +61,10 @@ Chaque section de la page regroupe ces trois émotions.
 ## Auteur
 
 Lucas Audoubert - Céléna Mary-Kate L'Entété
+
+## Sources
+
+Images - Pinterest
+Musique - (siarhei_korbut) Handpan Soundscape 432 Hz
+
 
