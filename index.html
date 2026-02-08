@@ -1,16 +1,32 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/main.css" />
+    <title>creative-development</title>
+  </head>
 
+  <body>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/src/main.css" />
-  <title>creative-development</title>
-</head>
-
-<body>
   <main id="scroll-container">
+    <section id="home-section" class="home-page">
+      <div class="img-container">
+        <img class="img-10 " class="image" src="./public/assets/images/download (10).jpg" alt="">
+        <img class="img-9 " src="./public/assets/images/download (9).jpg" alt="">
+        <img class="img-8" src="./public/assets/images/download (7).jpg" alt="">
+        <img class="img-7" src="./public/assets/images/download (6).jpg" alt="">
+        <img class="img-6" src="./public/assets/images/45+ Stunning Batik Textured Fabrics to Elevate Your Decor.jpg" alt="">
+        <img class="img-5" src="./public/assets/images/download (4).jpg" alt="">
+        <img class="img-4" src="./public/assets/images/download (3).jpg" alt="">
+        <img class="img-3" src="./public/assets/images/download (5).jpg" alt="">
+        <img class="img-2" src="./public/assets/images/Red and Yellow Gradient Wallpaper.jpg" alt="">
+        <img class="img-1" src="./public/assets/images/SHOP Blue Tiling _ Retro Flower Peel & Stick-on Removable Wallpaper.jpg" alt="">
+
+        <img class="img-0" src="./public/assets/images/download (8).png" alt="">
+      </div>
+    </section>
+
 
     <section id="frustration-section" class="emotion-section">
       <div class="emotion-content">
@@ -35,16 +51,23 @@
       </div>
     </section>
 
-    <section id="calm-section" class="emotion-section">
-      <div class="gradient-bg">
-        <div class="gradient-container">
-          <div class="g1"></div>
-          <div class="g2"></div>
-          <div class="g3"></div>
-          <div class="interactive"></div>
-          <div class="calm-emotion-content">
-            <h1>Calme</h1>
-            <p>La sérénité et la tranquillité</p>
+       
+     <section id="calm-section" class="emotion-section">
+        <div class="gradient-bg">
+          <div class="gradient-container">
+            <div class="g1"></div>
+            <div class="g2"></div>
+            <div class="g3"></div>
+            <div class="interactive"></div>
+            <div class="calm-emotion-content">
+              <audio controls class="calm-audio">
+                <source src="./public//siarhei_korbut-handpan-soundscape-432-hz-396231.mp3">
+              </audio>
+              <div class="calm-emotion-text">
+                <h1>Calme</h1>
+                <p>La sérénité et la tranquillité</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -58,6 +81,9 @@
     </section>
 
     <div class="tab-container">
+       <input class="tab tab--0" id="tab0" name="tab" type="radio" />
+      <label for="tab0" class="tab_label">Acceuil</label>
+
       <input class="tab tab--1" id="tab1" name="tab" type="radio" />
       <label for="tab1" class="tab_label">Frustration</label>
     
@@ -72,7 +98,6 @@
     </div>
   </main>
 
-  <script type="module" src="/src/main.js" defer></script>
-</body>
-
+    <script type="module" src="/src/main.js" defer></script>
+  </body>
 </html>

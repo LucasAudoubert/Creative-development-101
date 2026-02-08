@@ -1,17 +1,17 @@
 @use "./variables" as *;
 
 #joy-section {
-  background: linear-gradient(
-    45deg,
-    #ffd700 0%,
-    #ffa500 25%,
-    #ff69b4 50%,
-    #9370db 75%,
-    #00ced1 100%
-  );
-  background-size: 400% 400%;
-  animation: gradientShift 8s ease infinite;
-  position: relative;
+  // background: linear-gradient(
+  //   45deg,
+  //   #ffd700 0%,
+  //   #ffa500 25%,
+  //   #ff69b4 50%,
+  //   #9370db 75%,
+  //   #00ced1 100%
+  // );
+  // background-size: 400% 400%;
+  // animation: gradientShift 8s ease infinite;
+  // position: relative;
 
   &::before {
     content: "";

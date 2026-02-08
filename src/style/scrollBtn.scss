@@ -1,99 +1,50 @@
-.component-title {
-  width: 100%;
-  position: absolute;
-  z-index: 999;
-  top: 30px;
-  left: 0;
-  padding: 0;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #888;
-  text-align: center;
-}
+@use './variables' as *;
 
 .tab-container {
+  font-family:Arial, Helvetica, sans-serif ;
   position: fixed;
-  top: 20px;
-  right: 50px;
-  z-index: 9999;
+  right: 0%;
+  top: 0%;
+  transform: translateX(-50%);
+  margin: 0.9375rem;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 2px;
-  border-radius: 9px;
-  z-index: 999;
+  gap: 0.625rem;
+  padding: 0.625rem;
 
-  .scroller {
-    content: "";
-    width: 15px;
-    height: 135px;
-    opacity: 0.4;
-    background: #888;
-    position: absolute;
-    top: 5px;
-    right: -17px;
-    border: 0.5px solid rgba(0, 0, 0, 0.04);
-    border-radius: 7px;
-  }
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(0.625rem);
+  border-radius: 62.4375rem;
 
-  .indicator {
-    content: "";
-    width: 10px;
-    height: 28px;
-    background: #00ff6a;
-    position: absolute;
-    top: 8px;
-    right: -15px;
-    z-index: 9;
-    border: 0.5px solid rgba(0, 0, 0, 0.04);
-    box-shadow:
-      0px 3px 8px rgba(0, 0, 0, 0.12),
-      0px 3px 1px rgba(0, 0, 0, 0.04);
-    border-radius: 7px;
-    transition: all 0.2s ease-out;
-  }
+  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.2);
 
   .tab {
-    width: 130px;
-    height: 28px;
-    position: absolute;
-    z-index: 99;
-    outline: none;
-    opacity: 0;
+    display: none;
   }
 
   .tab_label {
-    width: 200px;
-    height: 50px;
-    position: relative;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 0;
-    font-size: 1rem;
-    font-family: "Funnel Display", sans-serif;
+    padding: 0.625rem 1.125rem;
+    border-radius: 62.4375rem;
+
+    font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
-    letter-spacing: 2px;
-    transition: color 0.3s ease;
-    color: black;
+
+    color: #fff;
+    background: transparent;
+
+    transition:
+      background 0.3s,
+      color 0.3s,
+      transform 0.2s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-0.0625rem);
+    }
   }
 
-  &.on-calm .tab_label {
-    color: white;
-  }
-
-  .tab--1:checked ~ .indicator {
-    top: 8px;
-  }
-
-  .tab--2:checked ~ .indicator {
-    top: calc(28px * 2 + 2px);
-  }
-
-  .tab--3:checked ~ .indicator {
-    top: calc(26.5px * 4 + 1px);
+  .tab:checked + .tab_label {
+    background: #ffffff88;
+    color: #000;
   }
 }

@@ -4,7 +4,7 @@ const tabContainer = document.querySelector(".tab-container");
 
 tabs.forEach((tab, index) => {
   tab.addEventListener("change", () => {
-    if (tab.checked && sections[index]) {
+    if (tab.checked && sections[index ]) {
       sections[index].scrollIntoView({ behavior: "smooth" });
     }
   });

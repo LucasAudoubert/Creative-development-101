@@ -1,0 +1,90 @@
+@use './variables' as *;
+
+$img0-size: 300px;
+
+.home-page {
+  height: 100svh;
+  background-image: url("/public/assets/images/download\ \(8\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(1);
+
+  .img-container {
+    position: relative;
+    width: 660px;
+    height: 100svh;
+    overflow: hidden;
+    justify-self: center;
+
+    img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: filter 0.3s;
+      filter: brightness(1);
+    }
+
+    &:hover img:not(:hover) {
+      filter: brightness(0.5);
+    }
+
+    img:hover {
+      filter: brightness(1);
+    }
+
+    .img-1{
+       @include ring(120px, 9); 
+    }
+
+    .img-2{
+       @include ring(180px, 8);
+    }
+
+    .img-3{ 
+      @include ring(240px, 7);
+    }
+
+    .img-4{
+      @include ring(300px, 6)
+    }
+
+    .img-5{
+       @include ring(360px, 5);
+    }
+
+    .img-6{ 
+      @include ring(420px, 4);
+    }
+
+    .img-7{
+      @include ring(480px, 3);
+    }
+
+    .img-8{
+      @include ring(540px, 2);
+    }
+
+    .img-9{
+       @include ring(600px, 1);
+    }
+
+    .img-10{
+      @include ring(660px, 0);
+    }
+
+    .img-0 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(1.05);
+      height: $img0-size;
+      width: auto;
+      z-index: 50;
+      object-fit: contain;
+      border-radius: 0;
+      filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.45));
+      pointer-events: auto;
+    }
+  }
+}
