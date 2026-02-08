@@ -64,7 +64,8 @@ Lucas Audoubert - Céléna Mary-Kate L'Entété
 
 ## Sources
 
-Images - Pinterest
-Musique - (siarhei_korbut) Handpan Soundscape 432 Hz
+- Images - Pinterest
+- Musique - (siarhei_korbut) Handpan Soundscape 432 Hz
+
 
 
