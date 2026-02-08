@@ -126,7 +126,7 @@
               0 0 2.5rem rgba(224, 247, 250, 0.3);
             font-weight: 300;
             letter-spacing: 0.2em;
-            font-size: 7.5rem;
+            font-size: 4.375rem;
           }
 
           p {
@@ -138,6 +138,25 @@
       }
     }
   }
+}
+
+.calm-audio {
+  width: 300px;
+  padding: 0.625rem;
+  border-radius: 62.4375rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(0.625rem);
+  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.calm-audio::-webkit-media-controls-panel {
+  border-radius: 62.4375rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(0.625rem);
+  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.2);
 }
 
 @keyframes breathe {
