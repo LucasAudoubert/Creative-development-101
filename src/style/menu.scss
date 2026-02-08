@@ -1,0 +1,55 @@
+@use "./variables" as *;
+
+.tab-container {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 999px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+  .tab {
+    display: none;
+  }
+
+  .tab_label {
+    padding: 10px 18px;
+    border-radius: 999px;
+
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+    color: #fff;
+    background: transparent;
+
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-1px);
+    }
+  }
+
+  .tab:checked + .tab_label {
+    background: #ffffff;
+    color: #000;
+  }
+
+  &.on-calm {
+    background: rgba(180, 220, 255, 0.25);
+
+    .tab:checked + .tab_label {
+      background: #b4dcff;
+      color: #003;
+    }
+  }
+}

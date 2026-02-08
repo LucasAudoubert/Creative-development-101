@@ -52,7 +52,7 @@
         height: 100%;
         transform-origin: calc(50% - 400px);
         opacity: 1;
-        // animation: rotate 20s linear reverse infinite;
+        animation: rotate 20s linear reverse infinite;
       }
 
       .g2 {
@@ -68,7 +68,7 @@
         height: 100%;
         opacity: 1;
         transform-origin: calc(50% - 200px);
-        // animation: moveX 20s linear infinite;
+        animation: moveX 20s linear infinite;
       }
 
       .g3 {

@@ -1,0 +1,50 @@
+@use './variables' as *;
+
+.tab-container {
+  font-family:Arial, Helvetica, sans-serif ;
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  transform: translateX(-50%);
+  margin: 0.9375rem;
+  display: flex;
+  gap: 0.625rem;
+  padding: 0.625rem;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(0.625rem);
+  border-radius: 62.4375rem;
+
+  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.2);
+
+  .tab {
+    display: none;
+  }
+
+  .tab_label {
+    padding: 0.625rem 1.125rem;
+    border-radius: 62.4375rem;
+
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+
+    color: #fff;
+    background: transparent;
+
+    transition:
+      background 0.3s,
+      color 0.3s,
+      transform 0.2s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-0.0625rem);
+    }
+  }
+
+  .tab:checked + .tab_label {
+    background: #ffffff88;
+    color: #000;
+  }
+}
